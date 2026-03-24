@@ -3,123 +3,202 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ottis Pendergraft | Portfolio</title>
+  <title>Ottis Pendergraft | Mechanical Engineering Portfolio</title>
+  <meta
+    name="description"
+    content="Mechanical Engineering portfolio of Ottis Pendergraft featuring CAD, fabrication, controls, prototyping, construction, and hands-on engineering projects."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
-    <div class="container">
-      <h1>Ottis Pendergraft</h1>
-      <p class="subtitle">
-        Mechanical engineering graduate and hands-on builder with experience across CAD, controls, fabrication, construction, and project management.
-      </p>
-      <nav class="nav">
+    <nav class="nav container">
+      <div class="nav-logo">OP</div>
+      <div class="nav-links">
         <a href="#about">About</a>
-        <a href="#resume">Resume</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-      </nav>
+        <a class="nav-resume" href="Ottis Current Resume.pdf" target="_blank">Resume</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+        <p class="eyebrow">Mechanical Engineering Portfolio</p>
+        <h1>Ottis Pendergraft</h1>
+        <p class="hero-subtitle">
+          UC Berkeley Mechanical Engineering graduate focused on hands-on building,
+          technical design, and turning ideas into real, functional systems.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="Ottis Current Resume.pdf" target="_blank">Open Resume</a>
+        </div>
+
+        <ul class="hero-highlights">
+          <li>CAD & SolidWorks</li>
+          <li>Controls & Prototyping</li>
+          <li>Fabrication & Construction</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
     </div>
   </header>
 
   <main>
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Me</h2>
-        <p>
-          I graduated from UC Berkeley with a degree in Mechanical Engineering and am originally from Santa Cruz, California.
-          My experience spans CAD, controls, fabrication, construction, and project management across academic work,
-          industry experience, and personal projects. Outside of engineering, I enjoy surfing, working out, and applying
-          the competitive mindset I developed through college lacrosse to the way I approach challenges. I am especially
-          drawn to hands-on work where technical problem-solving leads to something tangible built through iteration.
-        </p>
+    <section id="about" class="section section-about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img src="images/headshot.jpg" alt="Headshot of Ottis Pendergraft" class="about-image" />
+        </div>
+
+        <div class="about-text">
+          <p class="section-label">About Me</p>
+          <h2>Builder, designer, and problem solver.</h2>
+          <p>
+            I graduated from UC Berkeley with a degree in Mechanical Engineering and am originally
+            from Santa Cruz, California. My background spans CAD, controls, fabrication,
+            construction, and project management across academic work, industry experience,
+            and personal projects.
+          </p>
+          <p>
+            I am especially drawn to hands-on work where technical problem-solving leads to
+            something tangible built through iteration. Outside of engineering, I enjoy surfing,
+            working out, and bringing the competitive mindset I developed through college lacrosse
+            into the way I approach challenges.
+          </p>
+
+          <div class="about-mini-cards">
+            <div class="mini-card">
+              <span class="mini-title">From</span>
+              <span class="mini-value">Santa Cruz, CA</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-title">School</span>
+              <span class="mini-value">UC Berkeley</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-title">Interests</span>
+              <span class="mini-value">Surfing, training, Bay Area sports</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="resume" class="section alt">
+    <section id="projects" class="section section-projects">
       <div class="container">
-        <h2>Resume</h2>
-        <p>You can view my resume here:</p>
-        <p>
-          <a class="button" href="Ottis Current Resume.pdf" target="_blank">View Resume</a>
-        </p>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Featured Projects</h2>
+        <div class="section-heading">
+          <p class="section-label">Featured Work</p>
+          <h2>Projects that reflect how I build and think</h2>
+          <p class="section-intro">
+            A mix of school, work, and personal projects that showcase engineering design,
+            iteration, fabrication, and execution.
+          </p>
+        </div>
 
         <div class="projects-grid">
-          <article class="card">
-            <h3>American Mechanical</h3>
-            <p>
-              Worked on HVAC and controls-related projects while supporting field and technical operations.
-              Gained experience in building systems, coordination, and practical problem-solving.
-            </p>
+          <article class="project-card">
+            <img src="images/american-mechanical.jpg" alt="American Mechanical project" class="project-image" />
+            <div class="project-content">
+              <h3>American Mechanical</h3>
+              <p>
+                Supported HVAC and controls-related work in a real-world field environment,
+                gaining experience with building systems, coordination, and practical
+                engineering problem-solving.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>MotoStudents Motorcycle Project</h3>
-            <p>
-              Contributed to the design and build of a motorcycle project involving engineering design,
-              fabrication, and team collaboration.
-            </p>
+          <article class="project-card">
+            <img src="images/motostudents.jpg" alt="MotoStudents motorcycle project" class="project-image" />
+            <div class="project-content">
+              <h3>MotoStudents Motorcycle Project</h3>
+              <p>
+                Contributed to the design and build of a performance-focused motorcycle project,
+                combining engineering design, fabrication, and team-based execution.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Self-Balancing Robot</h3>
-            <p>
-              Built a robot focused on stability, control, and system response. Applied engineering design
-              and testing to improve performance.
-            </p>
+          <article class="project-card">
+            <img src="images/self-balancing-robot.jpg" alt="Self-balancing robot project" class="project-image" />
+            <div class="project-content">
+              <h3>Self-Balancing Robot</h3>
+              <p>
+                Built and refined a robot centered on balance, control, and system response,
+                applying testing and iteration to improve stability and performance.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Wind Turbine Project</h3>
-            <p>
-              Worked on a turbine design project involving energy capture, design tradeoffs,
-              and physical prototyping.
-            </p>
+          <article class="project-card">
+            <img src="images/wind-turbine.jpg" alt="Wind turbine project" class="project-image" />
+            <div class="project-content">
+              <h3>Wind Turbine Project</h3>
+              <p>
+                Worked on a turbine design project focused on energy capture, design tradeoffs,
+                and prototyping to better understand performance and mechanical efficiency.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Autotrack Fan</h3>
-            <p>
-              Developed a fan system intended to track motion automatically, combining mechanical design
-              with functional prototyping.
-            </p>
+          <article class="project-card">
+            <img src="images/autotrack-fan.jpg" alt="Autotrack fan project" class="project-image" />
+            <div class="project-content">
+              <h3>Autotrack Fan</h3>
+              <p>
+                Developed a fan system designed to track motion automatically, blending
+                mechanical design, functional prototyping, and user-focused problem-solving.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Dishwashing Head Prototype</h3>
-            <p>
-              Designed a prototype intended to improve a dishwashing-related process through practical product design.
-            </p>
+          <article class="project-card">
+            <img src="images/dishwashing-head.jpg" alt="Dishwashing head prototype" class="project-image" />
+            <div class="project-content">
+              <h3>Dishwashing Head Prototype</h3>
+              <p>
+                Designed a prototype aimed at improving a dishwashing-related process through
+                practical product design, iteration, and usability-focused thinking.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Surfboard Shaping</h3>
-            <p>
-              Hands-on design and fabrication experience through surfboard shaping, with a focus on craftsmanship,
-              iteration, and physical build quality.
-            </p>
+          <article class="project-card">
+            <img src="images/surfboard-shaping.jpg" alt="Surfboard shaping project" class="project-image" />
+            <div class="project-content">
+              <h3>Surfboard Shaping</h3>
+              <p>
+                Built hands-on design and fabrication experience through surfboard shaping,
+                with a focus on craftsmanship, iteration, and the relationship between form and function.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Model T Restoration</h3>
-            <p>
-              Participated in restoration work involving mechanical systems, problem-solving, and hands-on rebuilding.
-            </p>
+          <article class="project-card">
+            <img src="images/model-t-restoration.jpg" alt="Model T restoration project" class="project-image" />
+            <div class="project-content">
+              <h3>Model T Restoration</h3>
+              <p>
+                Participated in restoration work involving mechanical systems, troubleshooting,
+                and hands-on rebuilding, with an emphasis on patience, detail, and problem-solving.
+              </p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section alt">
+    <section id="skills" class="section section-skills">
       <div class="container">
-        <h2>Skills</h2>
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2>Core tools and strengths</h2>
+        </div>
+
         <div class="skills-list">
           <span>CAD</span>
           <span>SolidWorks</span>
@@ -133,21 +212,47 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>
-          <strong>LinkedIn:</strong>
-          <a href="https://www.linkedin.com/in/ottis-pendergraft-3bb845267/" target="_blank">
-            ottis-pendergraft-3bb845267
+    <section id="contact" class="section section-contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect</h2>
+          <p>
+            Feel free to reach out about engineering roles, project opportunities,
+            or anything related to design, building, and hands-on work.
+          </p>
+        </div>
+
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:Ottisp@icloud.com">
+            <span class="contact-type">Email</span>
+            <span class="contact-value">Ottisp@icloud.com</span>
           </a>
-        </p>
-        <p>
-          <strong>Email:</strong>
-          <a href="mailto:Ottisp@icloud.com">Ottisp@icloud.com</a>
-        </p>
+
+          <a
+            class="contact-card"
+            href="https://www.linkedin.com/in/ottis-pendergraft-3bb845267/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="contact-type">LinkedIn</span>
+            <span class="contact-value">ottis-pendergraft-3bb845267</span>
+          </a>
+
+          <a class="contact-card" href="Ottis Current Resume.pdf" target="_blank">
+            <span class="contact-type">Resume</span>
+            <span class="contact-value">Open PDF</span>
+          </a>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Ottis Pendergraft</p>
+      <p>Built with GitHub Pages</p>
+    </div>
+  </footer>
 </body>
 </html>
