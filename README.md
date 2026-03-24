@@ -46,5 +46,5 @@ Participated in restoration work involving mechanical systems, problem-solving, 
 - Team Leadership
 
 ## Contact
-- LinkedIn: [Add LinkedIn link here]
-- Email: [Add your email here]
+- LinkedIn: [https://www.linkedin.com/in/ottis-pendergraft-3bb845267/]
+- Email: [Ottisp@icloud.com]
