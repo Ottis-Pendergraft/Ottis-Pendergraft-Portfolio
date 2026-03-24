@@ -6,7 +6,8 @@ Mechanical engineering student and hands-on builder with experience across CAD, 
 I enjoy building things that combine technical design with real-world execution. My experience includes HVAC and controls work, motorcycle design and fabrication, construction project management, robotics, and personal build projects.
 
 ## Resume
-[Resume PDF](./Ottis_Current_Resume_2.0.pdf)
+[Resume PDF]([Ottis Current Resume 2.0.pdf](https://github.com/user-attachments/files/26228104/Ottis.Current.Resume.2.0.pdf)
+)
 
 ## Featured Projects
 
